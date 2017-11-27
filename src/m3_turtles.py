@@ -14,7 +14,7 @@ Authors: David Mutchler, Dave Fisher, Valerie Galluzzi, Amanda Stouder,
 """
 ########################################################################
 #
-# TODO: 1.
+# DONE 1
 #  (Yes, that means for YOU to DO things per these instructions:)
 #
 # On Line 13 above, replace  PUT_YOUR_OWN_NAME_HERE  with your OWN name.
@@ -26,10 +26,11 @@ Authors: David Mutchler, Dave Fisher, Valerie Galluzzi, Amanda Stouder,
 ########################################################################
 
 import rosegraphics as rg
+#rg.SimpleTurtle
 
 ########################################################################
 #
-# TODO: 2.
+# DONE 2
 #   Allow this file to use the rosegraphics.py file by marking the src
 #   directory as a "Sources Root".  Do that by right clicking on the src folder,
 #   then selector  Mark Directory As --> Sources Root
@@ -74,10 +75,15 @@ matt.backward(50)
 matt.left(90)
 matt.forward(50)
 
+# adding more code for TO DO 3
+matt.speed = 5
+matt.right(130)
+matt.forward(70)
+
 
 ########################################################################
 #
-# TODO: 3.
+# DONE 3 - Moved matt the tutrtle a bit by having them move 130o and then moving forward at a bit slower then previosly
 #   Add a few more line of your own code above to make one of the
 #   existing Turtles move some more and/or have different
 #   characteristics.
@@ -89,9 +95,21 @@ matt.forward(50)
 #
 ########################################################################
 
+# Making a new turtle named todo4
+todo4 = rg.SimpleTurtle('turtle')
+# Put the turtle icon(above)/trail(below)
+todo4.pen = rg.Pen('green', 10)
+# Move it around
+todo4.left (90)
+todo4.forward (150)
+todo4.left (90)
+todo4.forward (20)
+todo4.right (180)
+todo4.forward (40)
+
 ########################################################################
 #
-# TODO: 4.
+# DONE 4
 #   The code above  CONSTRUCTS  two SimpleTurtle objects and gives those objects NAMES:
 #       dave    matt
 #
