@@ -41,6 +41,7 @@ print(3607*34227)
 #          DONE.
 #        Try it now on line 16 above, and note that its blue bar on
 #        the scrollbar-like thing to the right has gone away.
+#      * As a note I am not changing th TO DO in the instruction because I want to keep it in there
 #
 # If you change TODOs to DONEs like this, you can tell when you have
 # finished all the exercises in a module -- there will be no blue bars
@@ -78,7 +79,7 @@ print(3607*34227)
 
 ########################################################################
 #
-# TODO: 5.
+# DONE 5
 #   Look at the list of files in this project to the left.
 #   Note that this file (m2_hello_world.py) is now displayed in a blue
 #   font color (if the file is highlighted select a different file so yu can
