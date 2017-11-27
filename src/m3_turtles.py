@@ -26,7 +26,6 @@ Authors: David Mutchler, Dave Fisher, Valerie Galluzzi, Amanda Stouder,
 ########################################################################
 
 import rosegraphics as rg
-#rg.SimpleTurtle
 
 ########################################################################
 #
@@ -100,12 +99,12 @@ todo4 = rg.SimpleTurtle('turtle')
 # Put the turtle icon(above)/trail(below)
 todo4.pen = rg.Pen('green', 10)
 # Move it around
-todo4.left (90)
-todo4.forward (150)
-todo4.left (90)
-todo4.forward (20)
-todo4.right (180)
-todo4.forward (40)
+todo4.left(90)
+todo4.forward(150)
+todo4.left(90)
+todo4.forward(20)
+todo4.right(180)
+todo4.forward(40)
 
 ########################################################################
 #
@@ -130,7 +129,7 @@ todo4.forward (40)
 
 ########################################################################
 #
-# TODO: 5.
+# DONE 5
 #   Run one more time to be sure that all is still OK.
 #   Ensure that no blue bars on the scrollbar-thing to the right remain.
 #
